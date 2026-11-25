@@ -32,7 +32,7 @@
 import { mkdirSync, writeFileSync } from "node:fs";
 
 const ENTRY =
-  "Monday, 7:03 a.m.: the lift died on floor 3, my coffee spilled on my clean shirt, and my 9 a.m. meeting moved to 8 — I rated Monday one star and it replied, 'Thanks for your feedback.'";
+  "1 star, Monday: alarm at 5:45, bus 42 skipped my stop, lift died on floor 3, ran in soaked at 8:59. Office was dark. Bank holiday. Even Monday had the day off.";
 
 // Sanity guard: the gate requires 1–200 characters, a single line, no padding.
 if (ENTRY.length >= 200 || ENTRY.length < 1) {
